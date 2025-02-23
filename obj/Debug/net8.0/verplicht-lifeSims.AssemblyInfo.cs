@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("verplicht-lifeSims")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7db53ccfc91dd0d5be422bcf107c3dea8a002150")]
 [assembly: System.Reflection.AssemblyProductAttribute("verplicht-lifeSims")]
 [assembly: System.Reflection.AssemblyTitleAttribute("verplicht-lifeSims")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
