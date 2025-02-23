@@ -26,3 +26,4 @@
 /mnt/s/code/csd1/verplicht-lifesims-main/verplicht-lifeSims/obj/Debug/net8.0/verplicht-lifeSims.pdb
 /mnt/s/code/csd1/verplicht-lifesims-main/verplicht-lifeSims/obj/Debug/net8.0/verplicht-lifeSims.genruntimeconfig.cache
 /mnt/s/code/csd1/verplicht-lifesims-main/verplicht-lifeSims/obj/Debug/net8.0/ref/verplicht-lifeSims.dll
+/mnt/s/code/csd1/verplicht-lifesims-main/verplicht-lifeSims/obj/Debug/net8.0/verplicht-lifeSims.sourcelink.json

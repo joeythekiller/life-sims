@@ -26,19 +26,8 @@ class Program
                 Console.Clear();
                 Console.WriteLine("your teammate has collected your reboot card");
                 Thread.Sleep(2000);
-                Console.Clear();
-                Console.WriteLine("you are getting rebooted.");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are getting rebooted..");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are getting rebooted...");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you got rebooted!");
-                Thread.Sleep(1000);
-                Console.Clear();
+                // function:
+                Sleep("you are getting rebooted");
             }
 
             string formattedDate = $"{huidigeDag.DayOfWeek} the {huidigeDag.Day}th of {huidigeDag.ToString("MMMM")}, {huidigeDag.Year}";
@@ -210,21 +199,8 @@ class Program
                 Console.Clear();
                 Console.WriteLine("tip: working can be pretty tiring");
                 Thread.Sleep(3000);
+                Sleep("you are working");
                 Console.Clear();
-                Console.WriteLine("you are working.");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are working..");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are working...");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are working....");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are working.....");
-                Thread.Sleep(1000);
             }
             else if (keuze == "3")
             {
@@ -235,22 +211,7 @@ class Program
                 Console.Clear();
                 Console.WriteLine("tip: sleeping will replenish your rest");
                 System.Threading.Thread.Sleep(3000);
-                Console.Clear();
-                Console.WriteLine("you are sleeping.");
-                System.Threading.Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are sleeping..");
-                System.Threading.Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are sleeping...");
-                System.Threading.Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are sleeping....");
-                System.Threading.Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine("you are sleeping.....");
-                System.Threading.Thread.Sleep(1000);
-
+                Sleep("you are sleeping");
             }
             else
             {
@@ -266,6 +227,25 @@ class Program
             Console.ReadLine();
             Console.Clear();
         }
+    }
+    static string Sleep(string functie){
+     
+                Console.Clear();
+                Console.WriteLine(functie + ".");
+                Thread.Sleep(1000);
+                Console.Clear();
+                Console.WriteLine(functie + "..");
+                Thread.Sleep(1000);
+                Console.Clear();
+                Console.WriteLine(functie + "...");
+                Thread.Sleep(1000);
+                Console.Clear();
+                Console.WriteLine(functie + "....");
+                Thread.Sleep(1000);
+                Console.Clear();
+                Console.WriteLine(functie +".....");
+                Thread.Sleep(1000);
+                return(" ");
     }
 }
 
